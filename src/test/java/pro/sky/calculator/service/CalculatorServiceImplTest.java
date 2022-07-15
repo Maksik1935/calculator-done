@@ -18,6 +18,7 @@ class CalculatorServiceImplTest {
         );
     }
 
+
     @Test
     public void shouldDivizorIsNotNull() {
         Assertions.assertDoesNotThrow(() -> out.getDivide(5, 5));
